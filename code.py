@@ -24,7 +24,7 @@ title="\n".join(title_list) #make sure title is string
 
 #file.close()
 
-file = open("/usercode/files/books.txt", "w") #open it in w mode so all the other things will be deleted. if will be like e new file
+file = open("/usercode/files/books.txt", "w") #open it in w mode so all the other things will be deleted. it will be like e new file
 file.write(title)
 file.close()
 
